@@ -1,0 +1,22 @@
+hr {
+    margin-bottom: 35px;
+    margin-top: 25px;
+}
+li {
+    color: blue;
+}
+code {
+    font: Helvetica;
+    text-decoration: underline;
+}
+
+.caption {
+    width: 50%;
+    font-style: italic;
+}
+
+#most_important {
+    background: grey;
+    width: 200px;
+    height: 100px;
+}
