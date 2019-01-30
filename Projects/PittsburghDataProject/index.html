@@ -1,0 +1,66 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smoking and Anxiety Meds in Allegheny County</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../../css/bootstrap.min.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="Jumbotron">
+        <h1 class="display">Smoking and Anxiety Meds in Allegheny County</h1>
+        <h3>By Robert Blake</h3>
+    </div>
+    <div id="content">
+        <div id="maps" style="text-align: center;">
+            <iframe src="https://wprdc.carto.com/builder/5dc09728-efc2-11e6-bf47-0ef24382571b/embed" frameborder="0" width="40%" data-module="data-viewer" style="height: 600px;">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+            <iframe src="https://wprdc-maps.carto.com/u/wprdc/builder/b4f24665-462a-48ce-80f6-8c8d45330915/embed" frameborder="0" width="40%" data-module="data-viewer" style="height: 600px;">
+                <p>Your browser does not support iframes.</p>
+            </iframe>
+        </div>
+        <hr>
+        <div class="container">
+        <div class="row">
+        <div class="writing">
+            <p>
+                Smoking is a habit long thought to reduce anxiety, and while studies have, historically, shown that the relief is only temporary<sup>1</sup>, that does little to stop people from self-medicating through smoking. It is, in fact, known that "anxiety disorders are more common among the smoking population" than the non-smoking population, with rates of 22% and 11% respectively.<sup>2</sup> With improvements to the accessiblity of healthcare throughout the Obama administration resulting in a easier time acquiring medications that designed to relieve the symptoms of any number of anxiety disorders.
+                <br><br>
+                Upon first glance at the maps of smoking in 2010<sup>3</sup> and anxiety medications usage in 2016<sup>4</sup>, it becomes immediately clear just how related the two are. Many of the highest rates of one bear similar heights on the other, and vice versa. Take, for instance, Findlay and Forward Townships, which are two of the most notable similarities. Both are immediately dark red and dark blue in their respective graphs, showing their relatively high rates of both the medication and the smoking. Alternatively, one need look no further than Fox Chapel to see an example of an area that is low in both respects. While there are a few examples of exceptions—Plum, for instance—many of these appear to be more the result of a lack of data on the map than lack of connection. 
+                <br><br>
+                Despite the seemingly clear relationship between the two, things get less consistent when looked at on a tract-by-tract basis. In the graph below, there's relatively little in the way of overall trends in the relationship between smoking and anxiety medication usage. 
+            </p>
+            <hr>
+        </div>
+        </div>
+        </div>
+        <div id="graph">
+                <div class='tableauPlaceholder' id='viz1548852241269' style='margin:auto; padding: 10px;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PD&#47;PDCPittsburghData&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PDCPittsburghData&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PD&#47;PDCPittsburghData&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1548852241269');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='60%';vizElement.style.height=(divElement.offsetWidth*0.4)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </div>
+        <div class="container">
+        <div class="row">
+        <div class="writing">
+            <p>
+                The graph itself uses data from WPRDC's datasets on Smoking in Allegheny County in 2010 and Anxiety Medication Usage in Allegheny County in 2016. It serves as a tract-by-tract comparison of the two sets of data, with the left set of data counting the number of people in that are on one of the medications, while the right is the percentage of the population in the tracts that smokes. 
+                <br><br>
+                As a result of the format of the data and their inherent differences, the graph itself may not properly represent relationships, as the percent of the population on anxiety medications may be similar across tracts, or it may follow the smoking graph closer, or it may even be the opposite. Without more precise data, it is hard to draw any strong conclusions from this portion of the data. 
+            </p>
+        </div>
+        </div>
+        </div>
+        <hr>
+        <div id="footer">
+            <h3>Sources</h3>
+                <ol>
+                    <li>Smoking and mental health. (2018, August 14). Retrieved from https://www.mentalhealth.org.uk/a-to-z/s/smoking-and-mental-health</li>
+                    <li>Kutlu, M. G., & Gould, T. J. (2015). Nicotine modulation of fear memories and anxiety: Implications for learning and anxiety disorders. Biochemical Pharmacology, 97(4), 498-511. doi:10.1016/j.bcp.2015.07.029</li>
+                    <li>WPRDC Allegheny County Smoking Rates</li>
+                    <li>WPRDC Allegheny County Anxiety Medication</li>
+                </ol>
+        </div>
+    </div>
+</body>
+</html>
