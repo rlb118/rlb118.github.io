@@ -20,3 +20,21 @@ code {
     width: 200px;
     height: 100px;
 }
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    overflow: hidden;
+    
+}
+
+li a:hover {
+    background-color: navy;
+}
+
+.top{
+    float: left;
+    border-right: 1px solid navy;
+}
