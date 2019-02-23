@@ -50,4 +50,6 @@ code {
 blockquote {
     background-color: grey;
     border-color: darkgrey;
+    padding: 10px 10px;
+
 }
