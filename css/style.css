@@ -23,17 +23,20 @@ li a {
     padding: 16px 16px;
 
 }
+li a:visited {
+    color: white;
+}
 
 hr {
-    margin-bottom: 35px;
-    margin-top: 25px;
+    border-color: dimgray;
+    margin: 5px, 3px; 
+    width: 75%;
 }
-li {
-    color: blue;
-}
+
 code {
     font: Helvetica;
     text-decoration: underline;
+    background-color: lightgray;
 }
 
 .caption {
@@ -48,8 +51,54 @@ code {
 }
 
 blockquote {
-    background-color: grey;
-    border-color: darkgrey;
-    padding: 10px 10px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
 
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thin;
+    background: lightgrey;
+    padding: 10px 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+h3 {
+    font-size: large;
+}
+
+a:focus {
+    font-weight: bold;
+}
+
+a:visited {
+    color: purple;
+}
+
+@media screen and (min-width: 25em) {
+    #nav {
+      float: none;
+      width: auto;
+    }
+    #main {
+      margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 43em) {
+    #nav {
+      float: left;
+      width: 24%;
+    }
+    #main {
+      margin-left: 27%;
+    }
 }
